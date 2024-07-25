@@ -1,0 +1,46 @@
+[
+  {
+    "Asset": "ADA",
+    "MinAmount": 0.05
+  },
+  {
+    "Asset": "SAND",
+    "MinAmount": 0.05
+  },
+  {
+    "Asset": "BNB",
+    "MinAmount": 0.00005
+  },
+  {
+    "Asset": "ETH",
+    "MinAmount": 0.000006
+  },
+  {
+    "Asset": "FTM",
+    "MinAmount": 0.01
+  },
+  {
+    "Asset": "MATIC",
+    "MinAmount": 0.02
+  },
+  {
+    "Asset": "SHIB",
+    "MinAmount": 1500
+  },
+  {
+    "Asset": "DOGE",
+    "MinAmount": 0.15
+  },
+  {
+    "Asset": "USDT",
+    "MinAmount": 0.01
+  },
+  {
+    "Asset": "USDC",
+    "MinAmount": 0.01
+  },
+  {
+    "Asset": "LINK",
+    "MinAmount": 0.002
+  }
+]

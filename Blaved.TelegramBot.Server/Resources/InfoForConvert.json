@@ -1,0 +1,618 @@
+[
+  {
+    "ConvertInternalFee": 0.5,
+    "FromAsset": "ADA",
+    "MaxAmount": 230000.0,
+    "MinAmount": 0.014,
+    "ToAsset": "ETH"
+  },
+  {
+    "FromAsset": "ADA",
+    "ToAsset": "BNB",
+    "MinAmount": 0.014,
+    "MaxAmount": 230000.0,
+    "ConvertInternalFee": 0.5
+  },
+  {
+    "FromAsset": "ADA",
+    "ToAsset": "USDT",
+    "MinAmount": 0.014,
+    "MaxAmount": 240000.0,
+    "ConvertInternalFee": 0.5
+  },
+  {
+    "FromAsset": "ADA",
+    "ToAsset": "USDC",
+    "MinAmount": 0.014,
+    "MaxAmount": 240000.0,
+    "ConvertInternalFee": 0.5
+  },
+  {
+    "FromAsset": "ADA",
+    "ToAsset": "LINK",
+    "MinAmount": 0.014,
+    "MaxAmount": 230000.0,
+    "ConvertInternalFee": 0.5
+  },
+  {
+    "FromAsset": "ADA",
+    "ToAsset": "DOGE",
+    "MinAmount": 0.014,
+    "MaxAmount": 240000.0,
+    "ConvertInternalFee": 0.5
+  },
+  {
+    "FromAsset": "ADA",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.014,
+    "MaxAmount": 240000.0,
+    "ConvertInternalFee": 0.5
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "ETH",
+    "MinAmount": 0.000017,
+    "MaxAmount": 2300.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "USDT",
+    "MinAmount": 0.000017,
+    "MaxAmount": 2300.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "USDC",
+    "MinAmount": 0.000017,
+    "MaxAmount": 2300.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "ADA",
+    "MinAmount": 0.000017,
+    "MaxAmount": 270.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "LINK",
+    "MinAmount": 0.000017,
+    "MaxAmount": 530.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "MATIC",
+    "MinAmount": 0.000017,
+    "MaxAmount": 500.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "DOGE",
+    "MinAmount": 0.000017,
+    "MaxAmount": 590.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.000017,
+    "MaxAmount": 380.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "FTM",
+    "MinAmount": 0.000017,
+    "MaxAmount": 260.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "BNB",
+    "ToAsset": "SAND",
+    "MinAmount": 0.000017,
+    "MaxAmount": 110.0,
+    "ConvertInternalFee": 0.0008
+  },
+  {
+    "FromAsset": "DOGE",
+    "ToAsset": "ETH",
+    "MinAmount": 0.066,
+    "MaxAmount": 2300000.0,
+    "ConvertInternalFee": 3.5
+  },
+  {
+    "FromAsset": "DOGE",
+    "ToAsset": "BNB",
+    "MinAmount": 0.066,
+    "MaxAmount": 2300000.0,
+    "ConvertInternalFee": 3.5
+  },
+  {
+    "FromAsset": "DOGE",
+    "ToAsset": "USDT",
+    "MinAmount": 0.066,
+    "MaxAmount": 2300000.0,
+    "ConvertInternalFee": 3.5
+  },
+  {
+    "FromAsset": "DOGE",
+    "ToAsset": "USDC",
+    "MinAmount": 0.066,
+    "MaxAmount": 2300000.0,
+    "ConvertInternalFee": 3.5
+  },
+  {
+    "FromAsset": "DOGE",
+    "ToAsset": "ADA",
+    "MinAmount": 0.066,
+    "MaxAmount": 1100000.0,
+    "ConvertInternalFee": 3.5
+  },
+  {
+    "FromAsset": "DOGE",
+    "ToAsset": "LINK",
+    "MinAmount": 0.066,
+    "MaxAmount": 2100000.0,
+    "ConvertInternalFee": 3.5
+  },
+  {
+    "FromAsset": "DOGE",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.066,
+    "MaxAmount": 1500000.0,
+    "ConvertInternalFee": 3.5
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "BNB",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 380.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "USDT",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 660.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "USDC",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 400.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "ADA",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 44.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "LINK",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 87.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "MATIC",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 82.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 63.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "DOGE",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 95.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "FTM",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 43.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "ETH",
+    "ToAsset": "SAND",
+    "MinAmount": 0.0000027,
+    "MaxAmount": 19.0,
+    "ConvertInternalFee": 0.0001
+  },
+  {
+    "FromAsset": "FTM",
+    "ToAsset": "ETH",
+    "MinAmount": 0.011,
+    "MaxAmount": 180000.0,
+    "ConvertInternalFee": 0.75
+  },
+  {
+    "FromAsset": "FTM",
+    "ToAsset": "BNB",
+    "MinAmount": 0.011,
+    "MaxAmount": 180000.0,
+    "ConvertInternalFee": 0.75
+  },
+  {
+    "FromAsset": "FTM",
+    "ToAsset": "USDT",
+    "MinAmount": 0.011,
+    "MaxAmount": 180000.0,
+    "ConvertInternalFee": 0.75
+  },
+  {
+    "FromAsset": "FTM",
+    "ToAsset": "USDC",
+    "MinAmount": 0.011,
+    "MaxAmount": 180000.0,
+    "ConvertInternalFee": 0.75
+  },
+  {
+    "FromAsset": "FTM",
+    "ToAsset": "LINK",
+    "MinAmount": 0.011,
+    "MaxAmount": 180000.0,
+    "ConvertInternalFee": 0.75
+  },
+  {
+    "FromAsset": "FTM",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.011,
+    "MaxAmount": 180000.0,
+    "ConvertInternalFee": 0.75
+  },
+  {
+    "FromAsset": "LINK",
+    "ToAsset": "ETH",
+    "MinAmount": 0.00053,
+    "MaxAmount": 17000.0,
+    "ConvertInternalFee": 0.015
+  },
+  {
+    "FromAsset": "LINK",
+    "ToAsset": "BNB",
+    "MinAmount": 0.00053,
+    "MaxAmount": 17000.0,
+    "ConvertInternalFee": 0.015
+  },
+  {
+    "FromAsset": "LINK",
+    "ToAsset": "USDT",
+    "MinAmount": 0.00053,
+    "MaxAmount": 17000.0,
+    "ConvertInternalFee": 0.015
+  },
+  {
+    "FromAsset": "LINK",
+    "ToAsset": "USDC",
+    "MinAmount": 0.00053,
+    "MaxAmount": 17000.0,
+    "ConvertInternalFee": 0.015
+  },
+  {
+    "FromAsset": "LINK",
+    "ToAsset": "ADA",
+    "MinAmount": 0.00053,
+    "MaxAmount": 8600.0,
+    "ConvertInternalFee": 0.015
+  },
+  {
+    "FromAsset": "LINK",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.00053,
+    "MaxAmount": 12000.0,
+    "ConvertInternalFee": 0.015
+  },
+  {
+    "FromAsset": "LINK",
+    "ToAsset": "DOGE",
+    "MinAmount": 0.00053,
+    "MaxAmount": 17000.0,
+    "ConvertInternalFee": 0.015
+  },
+  {
+    "FromAsset": "LINK",
+    "ToAsset": "FTM",
+    "MinAmount": 0.00053,
+    "MaxAmount": 8500.0,
+    "ConvertInternalFee": 0.015
+  },
+  {
+    "FromAsset": "MATIC",
+    "ToAsset": "ETH",
+    "MinAmount": 0.009,
+    "MaxAmount": 260000.0,
+    "ConvertInternalFee": 0.35
+  },
+  {
+    "FromAsset": "MATIC",
+    "ToAsset": "BNB",
+    "MinAmount": 0.009,
+    "MaxAmount": 260000.0,
+    "ConvertInternalFee": 0.35
+  },
+  {
+    "FromAsset": "MATIC",
+    "ToAsset": "USDT",
+    "MinAmount": 0.009,
+    "MaxAmount": 260000.0,
+    "ConvertInternalFee": 0.35
+  },
+  {
+    "FromAsset": "MATIC",
+    "ToAsset": "USDC",
+    "MinAmount": 0.009,
+    "MaxAmount": 260000.0,
+    "ConvertInternalFee": 0.35
+  },
+  {
+    "FromAsset": "MATIC",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.009,
+    "MaxAmount": 200000.0,
+    "ConvertInternalFee": 0.35
+  },
+  {
+    "FromAsset": "SAND",
+    "ToAsset": "ETH",
+    "MinAmount": 0.015,
+    "MaxAmount": 100000.0,
+    "ConvertInternalFee": 0.55
+  },
+  {
+    "FromAsset": "SAND",
+    "ToAsset": "BNB",
+    "MinAmount": 0.015,
+    "MaxAmount": 100000.0,
+    "ConvertInternalFee": 0.55
+  },
+  {
+    "FromAsset": "SAND",
+    "ToAsset": "USDT",
+    "MinAmount": 0.015,
+    "MaxAmount": 100000.0,
+    "ConvertInternalFee": 0.55
+  },
+  {
+    "FromAsset": "SAND",
+    "ToAsset": "USDC",
+    "MinAmount": 0.015,
+    "MaxAmount": 100000.0,
+    "ConvertInternalFee": 0.55
+  },
+  {
+    "FromAsset": "SAND",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.015,
+    "MaxAmount": 100000.0,
+    "ConvertInternalFee": 0.55
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "ETH",
+    "MinAmount": 370.0,
+    "MaxAmount": 8500000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "BNB",
+    "MinAmount": 370.0,
+    "MaxAmount": 8500000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "USDT",
+    "MinAmount": 370.0,
+    "MaxAmount": 8500000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "USDC",
+    "MinAmount": 370.0,
+    "MaxAmount": 8500000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "ADA",
+    "MinAmount": 370.0,
+    "MaxAmount": 6300000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "LINK",
+    "MinAmount": 370.0,
+    "MaxAmount": 8300000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "MATIC",
+    "MinAmount": 370.0,
+    "MaxAmount": 8500000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "DOGE",
+    "MinAmount": 370.0,
+    "MaxAmount": 8300000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "FTM",
+    "MinAmount": 370.0,
+    "MaxAmount": 5800000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "SHIB",
+    "ToAsset": "SAND",
+    "MinAmount": 370.0,
+    "MaxAmount": 2600000000.0,
+    "ConvertInternalFee": 28708.0
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "ETH",
+    "MinAmount": 0.01,
+    "MaxAmount": 1400000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "BNB",
+    "MinAmount": 0.01,
+    "MaxAmount": 1300000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "USDT",
+    "MinAmount": 0.01,
+    "MaxAmount": 1400000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "ADA",
+    "MinAmount": 0.01,
+    "MaxAmount": 160000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "LINK",
+    "MinAmount": 0.01,
+    "MaxAmount": 310000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "MATIC",
+    "MinAmount": 0.01,
+    "MaxAmount": 300000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "DOGE",
+    "MinAmount": 0.01,
+    "MaxAmount": 340000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "FTM",
+    "MinAmount": 0.01,
+    "MaxAmount": 150000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "SAND",
+    "MinAmount": 0.01,
+    "MaxAmount": 69000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDC",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.01,
+    "MaxAmount": 220000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "ETH",
+    "MinAmount": 0.01,
+    "MaxAmount": 2500000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "BNB",
+    "MinAmount": 0.01,
+    "MaxAmount": 1400000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "USDC",
+    "MinAmount": 0.01,
+    "MaxAmount": 1500000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "ADA",
+    "MinAmount": 0.01,
+    "MaxAmount": 170000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "LINK",
+    "MinAmount": 0.01,
+    "MaxAmount": 320000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "MATIC",
+    "MinAmount": 0.01,
+    "MaxAmount": 300000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "DOGE",
+    "MinAmount": 0.01,
+    "MaxAmount": 350000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "FTM",
+    "MinAmount": 0.01,
+    "MaxAmount": 160000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "SAND",
+    "MinAmount": 0.01,
+    "MaxAmount": 70000.0,
+    "ConvertInternalFee": 0.1
+  },
+  {
+    "FromAsset": "USDT",
+    "ToAsset": "SHIB",
+    "MinAmount": 0.01,
+    "MaxAmount": 230000.0,
+    "ConvertInternalFee": 0.1
+  }
+]

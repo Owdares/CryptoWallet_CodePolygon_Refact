@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="B.Back" xml:space="preserve">
+    <value>‹ Назад</value>
+  </data>
+  <data name="B.BackMainMenu" xml:space="preserve">
+    <value>‹ Главное меню</value>
+  </data>
+  <data name="B.BackPage" xml:space="preserve">
+    <value>‹‹‹</value>
+  </data>
+  <data name="B.BackUpdateAddress" xml:space="preserve">
+    <value>‹ Изменить адрес</value>
+  </data>
+  <data name="B.BackUpdateNetwork" xml:space="preserve">
+    <value>‹ Изменить сеть</value>
+  </data>
+  <data name="B.BackUpdateAsset" xml:space="preserve">
+    <value>‹ Изменить монету</value>
+  </data>
+  <data name="B.BackUpdateCount" xml:space="preserve">
+    <value>‹ Изменить количество</value>
+  </data>
+  <data name="B.BackUpdateID" xml:space="preserve">
+    <value>‹ Изменить ID</value>
+  </data>
+  <data name="B.BackUpdateAmount" xml:space="preserve">
+    <value>‹ Изменить сумму</value>
+  </data>
+  <data name="B.BinancePayID" xml:space="preserve">
+    <value>Binance Pay ID</value>
+  </data>
+  <data name="B.BlavedPayID" xml:space="preserve">
+    <value>Blaved Pay ID</value>
+  </data>
+  <data name="B.BlavedPay" xml:space="preserve">
+    <value>💸 Blaved Pay</value>
+  </data>
+  <data name="B.Cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="B.ChareCheck" xml:space="preserve">
+    <value>Отправить чек</value>
+  </data>
+  <data name="B.ChatUrl" xml:space="preserve">
+    <value>Наш чат</value>
+  </data>
+  <data name="B.CheckDelete" xml:space="preserve">
+    <value>Удалить чек</value>
+  </data>
+  <data name="B.CheckList" xml:space="preserve">
+    <value>Мои чеки</value>
+  </data>
+  <data name="B.Check" xml:space="preserve">
+    <value>Чеки</value>
+  </data>
+  <data name="B.CheckDeletePassword" xml:space="preserve">
+    <value>Удалить пароль</value>
+  </data>
+  <data name="B.CheckUpdatePassword" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="B.CheckSetPassword" xml:space="preserve">
+    <value>Установить пароль</value>
+  </data>
+  <data name="B.CheckСreate" xml:space="preserve">
+    <value>Создать чек</value>
+  </data>
+  <data name="B.Complete" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="B.Confirm" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="B.Deposit" xml:space="preserve">
+    <value>Пополнить</value>
+  </data>
+  <data name="B.DepositHistory" xml:space="preserve">
+    <value>История депозитов</value>
+  </data>
+  <data name="B.ExchangeCreate" xml:space="preserve">
+    <value>Обменять</value>
+  </data>
+  <data name="B.Exchange" xml:space="preserve">
+    <value>💱 Обменник</value>
+  </data>
+  <data name="B.Language" xml:space="preserve">
+    <value>Язык бота</value>
+  </data>
+  <data name="B.GroupUrl" xml:space="preserve">
+    <value>Наша группа</value>
+  </data>
+  <data name="B.Help" xml:space="preserve">
+    <value>🗣 Помощь</value>
+  </data>
+  <data name="B.HelpUrl" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="B.LanguageEN" xml:space="preserve">
+    <value>🇺🇸 English</value>
+  </data>
+  <data name="B.LanguageRU" xml:space="preserve">
+    <value>🇷🇺 Русский</value>
+  </data>
+  <data name="B.LanguageUA" xml:space="preserve">
+    <value>🇺🇦 Український</value>
+  </data>
+  <data name="B.NextPage" xml:space="preserve">
+    <value>›››</value>
+  </data>
+  <data name="B.Referrals" xml:space="preserve">
+    <value>Реферальная система</value>
+  </data>
+  <data name="B.BonusBalance" xml:space="preserve">
+    <value>Бонусный баланс</value>
+  </data>
+  <data name="B.Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="B.BonusBalanceToBalance" xml:space="preserve">
+    <value>Перевести на основой баланс</value>
+  </data>
+  <data name="B.Settings" xml:space="preserve">
+    <value>⚙️ Настройки</value>
+  </data>
+  <data name="B.Wallet" xml:space="preserve">
+    <value>💰 Кошелёк (${0} USD)</value>
+  </data>
+  <data name="B.TermsOfUse" xml:space="preserve">
+    <value>Условия использования</value>
+  </data>
+  <data name="B.WhatCan.GroupUrl" xml:space="preserve">
+    <value>Подробности в групе</value>
+  </data>
+  <data name="B.Withdraw" xml:space="preserve">
+    <value>Вывести</value>
+  </data>
+  <data name="B.WithdrawHistory" xml:space="preserve">
+    <value>История выводов</value>
+  </data>
+  <data name="M.BlavedPayIDTransferCreateInsufficientBalanceAnswer" xml:space="preserve">
+    <value>😕 Недостаточный баланс для перевода
+
+Минимум: {0} {1} (${2})
+
+Баланс: {3} {4} (${5})</value>
+  </data>
+  <data name="M.BlavedPayIDTransferConfirm" xml:space="preserve">
+    <value>Монета: *[{0}]({1})*
+	
+*ID* Получателя: `{2}`
+Сумма: {3} *{4}* \(${5}\)
+
+Баланс: {6} *{7}* \(${8}\)
+
+Вы уверены, что хотите перевести эти монеты?
+
+➥ [Подробней]({9})</value>
+  </data>
+  <data name="M.BlavedPayIDTransferCreateWaitAsset" xml:space="preserve">
+    <value>Выберите монету которую хотите отправить по *ID* другому пользователю.</value>
+  </data>
+  <data name="M.BlavedPayIDTransferCreateWaitID" xml:space="preserve">
+    <value>Пришлите *ID* пользователя которому хотите отправить *[{0}]({1})*.</value>
+  </data>
+  <data name="M.BlavedPayIDTransferCreateWaitAmount" xml:space="preserve">
+    <value>Пришлите или выберите сумму в *[{0}]({1})*, которую хотите отправить 
+
+*ID* Получателя: `{2}`
+Минимум: {3} *{4}* \(${5}\)
+
+Ваш баланс: {6} *{7}* \(${8}\)</value>
+  </data>
+  <data name="M.BlavedPay" xml:space="preserve">
+    <value>💸 *Blaved Pay* \- Перевод монет внутри экосистемы *Blaved* и *Binance*.</value>
+  </data>
+  <data name="M.BlavedPayIDTransferCreateNotCorrectID" xml:space="preserve">
+    <value>🫤 Вы прислали не коректный *ID*, проверьте его и отправьте снова.</value>
+  </data>
+  <data name="M.BlavedPayIDTransferCreateNotCorrectAmount" xml:space="preserve">
+    <value>🫤 Вы прислали не коректную сумму в *[{0}]({1})*, проверьте её и выберите или отправьте снова.
+
+*ID* Получателя: `{2}`
+Минимум: {3} *{4}* \(${5}\)
+
+Ваш баланс: {6} *{7}* \(${8}\)</value>
+  </data>
+  <data name="M.BlavedPayIDTransferCompleted" xml:space="preserve">
+    <value>💸 Перевод по *ID* завершен *успешно*
+
+Монета: *[{0}]({1})*
+
+*ID* Получателя: `{2}`
+Сумма: {3} *{4}* \(${5}\)</value>
+  </data>
+  <data name="M.BlavedPayIDTransferCreateUserNotFound" xml:space="preserve">
+    <value>🫤 Пользователь не найден в нашем сервисе, проврьте *ID* и отправьте снова.</value>
+  </data>
+  <data name="M.CheckActivation" xml:space="preserve">
+    <value>🎁 Чек активирован, вам начислино {0} *{1}* \(${2}\)</value>
+  </data>
+  <data name="M.CheckActivationAforeUsed" xml:space="preserve">
+    <value>Вы уже активировали этот чек раньше.</value>
+  </data>
+  <data name="M.CheckActivationCountNull" xml:space="preserve">
+    <value>У этого чека закончились активации.</value>
+  </data>
+  <data name="M.CheckActivationWaitPassword" xml:space="preserve">
+    <value>Пришлите пароль для активации чека на {0} *{1}* \(${2}\)</value>
+  </data>
+  <data name="M.CheckActivationPasswordNotCorrect" xml:space="preserve">
+    <value>Вы отправили не верный пароль для чека.</value>
+  </data>
+  <data name="M.CheckCreateInsufficientBalanceAnswer" xml:space="preserve">
+    <value>😕 Недостаточный баланс для чека
+
+Минимум: {0} {1} (${2})
+
+Баланс: {3} {4} (${5})</value>
+  </data>
+  <data name="M.CheckConfirm" xml:space="preserve">
+    <value>Монета: *[{0}]({1})*
+	
+Сумма: {2} *{3}* \(${4}\)
+Количество активаций: *{5}*
+
+Общая сумма: {6} *{7}* \(${8}\)
+
+Подтвердите создание чека или вернитесь чтобы изменить данные.
+
+➥ [Подробней]({9})</value>
+  </data>
+  <data name="M.CheckCreateCountNotCorrect" xml:space="preserve">
+    <value>🫤 Вы прислали не коректное число активаций по {0} *{1}* \(${2}\) для одной активации, проверьте его и выберите или отправьте снова.
+
+Минимум: *{3}* • {4} *{5}* \(${6}\)
+Максимум: *{7}* • {8} *{9}* \(${10}\)
+
+Ваш баланс: {11} *{12}* \(${13}\)</value>
+  </data>
+  <data name="M.CheckCreateWaitAsset" xml:space="preserve">
+    <value>Выберете монету для создания чека.</value>
+  </data>
+  <data name="M.CheckCreateWaitCount" xml:space="preserve">
+    <value>Пришлите или выберите количество активаций по {0} *{1}* \(${2}\) для одной активации.
+
+Минимум: *{3}* • {4} *{5}* \(${6}\)
+Максимум: *{7}* • {8} *{9}* \(${10}\)
+
+Ваш баланс: {11} *{12}* \(${13}\)</value>
+  </data>
+  <data name="M.CheckUpdateWaitPassword" xml:space="preserve">
+    <value>Пришлите пароль, который хотите установить для чека.</value>
+  </data>
+  <data name="M.CheckCreateWaitAmount" xml:space="preserve">
+    <value>Пришлите или выберите сумму в *[{0}]({1})* для одной активации
+
+Минимум: {2} *{3}* \(${4}\)
+
+Ваш баланс: {5} *{6}* \(${7}\)</value>
+  </data>
+  <data name="M.CheckList" xml:space="preserve">
+    <value>🗃️ Выберите *чек* из списка для осмотра.</value>
+  </data>
+  <data name="M.Check" xml:space="preserve">
+    <value>🎁 Вы можете создать и отправить чек любому пользователю *Telegram*, Делать раздачи в чатах или группах.
+
+Каждый кто в первые активирует ваш чек, станет вашим рефералом.</value>
+  </data>
+  <data name="M.CheckUpdatePasswordConfirm" xml:space="preserve">
+    <value>Проверьте и подтвердите пароль для чека
+
+Пароль: ||{0}||</value>
+  </data>
+  <data name="M.CheckUpdatePasswordNotCorrect" xml:space="preserve">
+    <value>🫤 Вы прислали не коректный пароль, проверьте его и отправьте снова.</value>
+  </data>
+  <data name="M.CheckCreateAmountNotCorrect" xml:space="preserve">
+    <value>🫤 Вы прислали не коректную сумму в *[{0}]({1})*, проверьте её и выберите или отправьте снова.
+
+Минимум: {2} *{3}* \(${4}\)
+
+Ваш баланс: {5} *{6}* \(${7}\)</value>
+  </data>
+  <data name="M.CheckView" xml:space="preserve">
+    <value>Монета: *[{0}]({1})*
+
+Сумма активации: {2} *{3}* \(${4}\)
+Количество активаций: *{5}*
+Общая сумма: {6} *{7}* \(${8}\)
+
+Время создания чека *\(UTC\)*: 
+`{9}` \| `{10}` 
+
+Поделитесь ссылкой или нажмите кнопку чтобы отправить чек:
+||{11}||
+
+⚠️ Не делитесь чеком и ссылкой с подозрительными пользователями, они могут активировать ваш чек.</value>
+  </data>
+  <data name="M.ExchangeCompleted" xml:space="preserve">
+    <value>💱 Обмен завершен *успешно*
+
+Пара: *[{0}]({1})/[{2}]({3})*
+
+Отдали: {4} *{5}* \(${6}\)
+➥ Комиссия: {7} *{8}* \(${9}\)
+Получили: {10} *{11}* \(${12}\)</value>
+  </data>
+  <data name="M.ExchangeCreateCoinDontHavePairAnswer" xml:space="preserve">
+    <value>😕 У этой монеты временно нету пары.</value>
+  </data>
+  <data name="M.ExchangeConfirm" xml:space="preserve">
+    <value>Пара: *[{0}]({1})/[{2}]({3})*
+
+Отдаете: {4} *{5}* \(${6}\)
+➥ Комиссия: {7} *{8}* \(${9}\)
+Получаете: {10} *{11}* \(${12}\)
+
+Вы уверены что хотите обменять монеты?
+
+➥ [Подробней]({13})</value>
+  </data>
+  <data name="M.DepositAlert" xml:space="preserve">
+    <value>💰 Ваш баланс пополнен
+
+Монета: *[{0}]({1})*
+Сеть: *[{2}]({3})*
+
+Адрес отправителя:
+`{4}`
+
+Получено: {5} *{6}* \(${7}\)
+Комиссия: {8} *{9}* \(${10}\)
+Общая сумма: {11} *{12}* \(${13}\)</value>
+  </data>
+  <data name="M.DepositWaitNetwork" xml:space="preserve">
+    <value>Выберите сеть в которой хотите пополнить баланс *[{0}]({1})*.</value>
+  </data>
+  <data name="M.DepositWaitAsset" xml:space="preserve">
+    <value>Выберите монету в которой хотите пополненить баланс.</value>
+  </data>
+  <data name="M.DepositHistoryWaitNetwork" xml:space="preserve">
+    <value>Выберите сеть в которой хотите посмотреть историю депозитов.</value>
+  </data>
+  <data name="M.DepositHistoryNoneAnswer" xml:space="preserve">
+    <value>😕 У вас нету выполненых депозитов в этой сети.</value>
+  </data>
+  <data name="M.DepositHistoryView" xml:space="preserve">
+    <value>Монета: *[{0}]({1})*
+Сеть: *[{2}]({3})*
+
+Адрес отправителя:
+`{4}`
+
+Получено: {5} *{6}* \(${7}\)
+Комиссия: {8} *{9}* \(${10}\)
+Общая сумма: {11} *{12}* \(${13}\)
+
+Хеш транзакции: [{14}]({15})
+
+Время депозита *\(UTC\)*: 
+`{16}` \| `{17}`</value>
+  </data>
+  <data name="M.DepositHistoryList" xml:space="preserve">
+    <value>🗃️ Выберите *депозит* из списка для осмотра.</value>
+  </data>
+  <data name="M.DepositViewAddress" xml:space="preserve">
+    <value>Монета: *[{0}]({1})*
+Сеть: *[{2}]({3})* ❕
+
+Минимальная сумма: {4} *{5}* \(${6}\)
+Комиссия: *Комиссия сети*
+
+`{7}`
+
+➥ *[Подробней]({8})*</value>
+  </data>
+  <data name="M.ExchangeCreateInsufficientBalanceAnswer" xml:space="preserve">
+    <value>😕 Недостаточный баланс для обмена
+
+Минимум: {0} {1} (${2})
+Комиссия: {3} {4} (${5})
+
+Баланс: {6} {7} (${8})</value>
+  </data>
+  <data name="M.ExchangeCoinDontHavePair" xml:space="preserve">
+    <value>😕 На эту монеты временно нету пары.</value>
+  </data>
+  <data name="M.ExchangeError" xml:space="preserve">
+    <value>😕 Во время обмена произошла ошибка
+Повторите попытку позже или обратитесь в поддержку.</value>
+  </data>
+  <data name="M.ExchangeCreateWaitFromAsset" xml:space="preserve">
+    <value>Выберите монету которую хотите обменять.</value>
+  </data>
+  <data name="M.ExchangeCreateWaitAmount" xml:space="preserve">
+    <value>Пришлите или выберите сумму в *[{0}]({1})* которую хотите обменять на *[{2}]({3})*
+
+Минимум: {4} *{5}* \(${6}\)
+Максимум: {7} *{8}* \(${9}\)
+Коммисия: {10} *{11}* \(${12}\)
+
+Ваш баланс: {13} *{14}* \(${15}\)</value>
+  </data>
+  <data name="M.ExchangeCreateWaitToAsset" xml:space="preserve">
+    <value>Выберите монету которую хотите получить за *[{0}]({1})*.</value>
+  </data>
+  <data name="M.Exchange" xml:space="preserve">
+    <value>💱 Вы можете обменять свои монеты, нашим сервисом предусмотрен обмен не больших сумм.</value>
+  </data>
+  <data name="M.ExchangeCreateNotCorrectAmount" xml:space="preserve">
+    <value>🫤 Вы прислали не коректную сумму, проверьте её и отправьте снова.</value>
+  </data>
+  <data name="M.Language" xml:space="preserve">
+    <value>Выберите удобный для вас язык бота.</value>
+  </data>
+  <data name="M.Help" xml:space="preserve">
+    <value>❤️ Если у вас возникла проблема, вы можете обратиться в поддержку в любое время, наши эксперты помогут решить любую вашу проблему.</value>
+  </data>
+  <data name="M.Main" xml:space="preserve">
+    <value>*Добро пожаловать в [Blaved]({0})*
+
+Новостной *[канал]({1})* и *[чат]({2})*, следите за новостями и общайтесь.</value>
+  </data>
+  <data name="M.CheckDontHaveAnswer" xml:space="preserve">
+    <value>😕 У вас нету активных чеков.</value>
+  </data>
+  <data name="M.Referrals" xml:space="preserve">
+    <value>👥 Приглашайте пользователей в бота и зарабатывайте на их комиссиях
+
+Вы можете получить следующие вознаграждения за приглашённых пользователей:
+*• {0}% от комиссии обмена.*
+
+Количество ваших рефералов: *{1}*
+Общий заработок: ${2} *USD*
+
+Ваша реферальная ссылка: {3}
+
+Вместо отправления ссылки, можете отправить приглашение, нажав кнопку снизу.</value>
+  </data>
+  <data name="M.BonusBalance" xml:space="preserve">
+    <value>__*Бонусный баланс*: ${0} *USD*__</value>
+  </data>
+  <data name="M.BonusBalanceToBalanceCompletedAnswer" xml:space="preserve">
+    <value>😀 Монеты перемещены на ваш основной баланс.</value>
+  </data>
+  <data name="M.BonusBalanceToBalanceErrorAnswer" xml:space="preserve">
+    <value>😕 Перевод не выполнен, дополнительный баланс пустой.</value>
+  </data>
+  <data name="M.ServerError" xml:space="preserve">
+    <value>😕 Сбой системы, мы уже работаем над востановлением
+Обратитесь в поддержку если получаете это сообщение продолжительное время.</value>
+  </data>
+  <data name="M.Settings" xml:space="preserve">
+    <value>⚙️ Здесь вы можете настроить бота под себя, получить нужную информацию и вашу реферальную ссылку.</value>
+  </data>
+  <data name="M.UserHasBanned" xml:space="preserve">
+    <value>Вам заблокированы любые действия у всех наших сервисах, чтобы узнать причину и\(или\) оспорить её, обратитесь в *[службу поддежки]({0})*</value>
+  </data>
+  <data name="M.WalletTop" xml:space="preserve">
+    <value>*Ваш ID: `{0}`*
+
+__*Общий баланс*: ${1} *USD*__</value>
+  </data>
+  <data name="M.TermsOfUse" xml:space="preserve">
+    <value>PageStart 1
+*Пользовательское соглашение бота [Blaved]({0})*
+
+*1. Общие положения*
+
+   _1.1. Данное *Пользовательское соглашение* \(далее \- "Соглашение"\) регулирует отношения между *пользователями* \(далее \- *"Пользователь"*\) и ботом *[Blaved]({1})* \(далее \- *"Бот"*\).
+
+   1.2. Используя функционал *Бота*, *Пользователь* выражает свое полное и безоговорочное согласие с условиями настоящего Соглашения._
+
+*2. Учетная запись и безопасность*
+
+   _2.1. *Пользователь* несет ответственность за сохранность своих учетных данных и обязуется предпринять все необходимые меры для их защиты.
+
+   2.2. *[Blaved]({2})* оставляет за собой право заблокировать учетную запись *Пользователя* в случае нарушения правил использования *Бота*._
+PageEnd 1
+PageStart 2
+*3. Правила использования Бота*
+
+   _3.1. *Пользователь* обязуется использовать функционал *[Blaved]({0})* с соблюдением действующего законодательства и моральных норм.
+
+   3.2. Запрещается осуществление незаконных операций с использованием функций *Бота*, в том числе, но не ограничиваясь, финансовым мошенничеством, отмыванием денег и другими незаконными действиями.
+
+   3.3. *Пользователь* обязуется не предоставлять свои учетные данные третьим лицам и несет ответственность за любые действия, совершенные с использованием его аккаунта._
+
+*4. Функционал Бота*
+
+   _4.1. *[Blaved]({1})* предоставляет *Пользователю* функции криптовалютного кошелька, включая, но не ограничиваясь, обмен, депозит и вывод средств.
+
+   4.2. *Пользователь* несет ответственность за свои финансовые решения, связанные с использованием функционала *Бота*._
+PageEnd 2
+PageStart 3
+*5. Ответственность*
+
+   _5.1. *[Blaved]({0})* не несет ответственности за убытки, прямые или косвенные, понесенные *Пользователем* в результате использования функционала *Бота*.
+
+   5.2. *Пользователь* несет ответственность за свои действия в рамках использования *Бота* и обязуется соблюдать все указания и предупреждения, предоставленные *Ботом*._
+
+*6. Завершение и изменение условий*
+
+   _6.1. *[Blaved]({1})* оставляет за собой право в любой момент изменять условия настоящего *Соглашения*, уведомляя об этом *Пользователей* через интерфейс *Бота*.
+
+   6.2. *Пользователь* имеет право отказаться от использования *Бота* в случае несогласия с изменениями._
+PageEnd 3
+PageStart 4
+*7. Заключительные положения*
+
+   _7.1. Настоящее *Соглашение* считается принятым *Пользователем* при начале им использования функционала *[Blaved]({0})*.
+
+   7.2. Любые споры и разногласия, возникающие из настоящего *Соглашения*, подлежат разрешению путем переговоров между сторонами.
+
+   7.3. В случае нарушения правил использования, *[Blaved]({1})* оставляет за собой право заблокировать учетную запись *Пользователя*._
+
+
+*Так\-же обратите внимание на [риски связаные с торговлей](https://www.binance.com/en/risk-warning)*
+PageEnd 4</value>
+  </data>
+  <data name="M.WithdrawCreateInsufficientBalanceAnswer" xml:space="preserve">
+    <value>😕 Недостаточный баланс для вывода
+
+Минимум: {0} {1} (${2})
+Коммиссия: {3} {4} (${5})
+
+Баланс: {6} {7} (${8})</value>
+  </data>
+  <data name="M.WithdrawCompletedAlert" xml:space="preserve">
+    <value>💸 Вывод завершен *успешно*
+
+Монета: *[{0}]({1})*
+Сеть: *[{2}]({3})*
+
+Адрес получателя: 
+`{4}`
+
+Отправлено: {5} *{6}* \(${7}\)
+Комиссия: {8} *{9}* \(${10}\)
+Общая сумма: {11} *{12}* \(${13}\)
+
+Хеш транзакции: [{14}]({15})</value>
+  </data>
+  <data name="M.WithdrawConfirm" xml:space="preserve">
+    <value>Монета: *[{0}]({1})*
+Сеть: *[{2}]({3})*
+
+Адрес получателя: 
+`{4}`
+
+Будет отправлено: {5} *{6}* \(${7}\)
+Комиссия: {8} *{9}* \(${10}\)
+Общая сумма: {11} *{12}* \(${13}\)
+
+Вы уверены, что хотите отправить эти монеты?
+
+➥ [Подробней]({14})</value>
+  </data>
+  <data name="M.WithdrawErrorAlert" xml:space="preserve">
+    <value>😕 Во время вывода произошла ошибка
+Повторите попытку позже или обратитесь в поддержку.</value>
+  </data>
+  <data name="M.WithdrawCreateWaitAddress" xml:space="preserve">
+    <value>Пришлите адрес кошелька для отправки *{0}*.
+
+Сеть: *{1}*</value>
+  </data>
+  <data name="M.WithdrawCreateWaitNetwork" xml:space="preserve">
+    <value>Выберите сеть в которой хотите отправить *[{0}]({1})*.</value>
+  </data>
+  <data name="M.WithdrawCreateWaitAsset" xml:space="preserve">
+    <value>Выберите монету, которую хотите отправить.</value>
+  </data>
+  <data name="M.WithdrawCreateWaitAmount" xml:space="preserve">
+    <value>Пришлите или выберите сумму в *[{0}]({1})*, которую хотите отправить
+
+Максимум: {2} *{3}* \(${4}\)
+Минимум: {5} *{6}* \(${7}\)
+Комиссия: {8} *{9}* \(${10}\)
+
+Ваш баланс: {11} *{12}* \(${13}\)</value>
+  </data>
+  <data name="M.WithdrawHistoryWaitNetwork" xml:space="preserve">
+    <value>Выберите сеть в которой хотите посмотреть историю выводов.</value>
+  </data>
+  <data name="M.WithdrawHistoryNoneAnswer" xml:space="preserve">
+    <value>😕 У вас нету выполненых выводов в этой сети.</value>
+  </data>
+  <data name="M.WithdrawHistoryView" xml:space="preserve">
+    <value>Монета: *[{0}]({1})*
+Сеть: *[{2}]({3})*
+
+Адрес:
+`{4}`
+
+Отправлено: {5} *{6}* \(${7}\)
+Комиссия: {8} *{9}* \(${10}\)
+Общая сумма: {11} *{12}* \(${13}\)
+
+Хеш транзакции: [{14}]({15})
+
+Время вывода *\(UTC\)*: 
+`{16}` \| `{17}`</value>
+  </data>
+  <data name="M.WithdrawHistoryList" xml:space="preserve">
+    <value>🗃️ Выберите *вывод* из списка для осмотра.</value>
+  </data>
+  <data name="M.WithdrawCreateNotCorrectAddress" xml:space="preserve">
+    <value>🫤 Вы прислали не коректный адрес, проверьте его и отправьте снова.</value>
+  </data>
+  <data name="M.WithdrawCreateNotCorrectAmount" xml:space="preserve">
+    <value>🫤 Вы прислали не коректную сумму в *[{0}]({1})*, проверьте её и выберите или отправьте снова.
+
+Максимум: {2} *{3}* \(${4}\)
+Минимум: {5} *{6}* \(${7}\)
+Комиссия: {8} *{9}* \(${10}\)
+
+Ваш баланс: {11} *{12}* \(${13}\)</value>
+  </data>
+  <data name="M.WithdrawSentAnswer" xml:space="preserve">
+    <value>😀 Транзакция отправляется, вы будете уведомлены о её статусе.</value>
+  </data>
+  <data name="B.ChareReferrals" xml:space="preserve">
+    <value>Отправить приглашение</value>
+  </data>
+  <data name="M.ExchangeCreateErrorOverdueConfirmAnswer" xml:space="preserve">
+    <value>😕 Время ожидания прошло, подтвердите ещё раз.</value>
+  </data>
+  <data name="M.ExchangeCreateErrorQuote" xml:space="preserve">
+    <value>😕 Ошибка в запросе курса, повторите попытку позже.</value>
+  </data>
+  <data name="M.WalletOneAsset" xml:space="preserve">
+    <value>
+
+· *[{0}]({1})*: {2} *{3}* \(${4}\)
+  ➥ `Бонусный`: {5} *{6}* \(${7}\)</value>
+  </data>
+  <data name="M.BonusBalanceOneAsset" xml:space="preserve">
+    <value>
+
+· *[{0}]({1})*: {2} *{3}* \(${4}\)</value>
+  </data>
+  <data name="M.AcceptTermsOfUseAnswer" xml:space="preserve">
+    <value>📋 Используя сервис вы принимаете пользовательское соглашение
+
+Ознакомится можно в меню "Настройки".</value>
+  </data>
+  <data name="M.CheckActivationNotFound" xml:space="preserve">
+    <value>Такой чек не найден.</value>
+  </data>
+  <data name="B.InlineChareCheck_Button" xml:space="preserve">
+    <value>Получить {0} {1} (${2})</value>
+  </data>
+  <data name="B.InlineChareCheck_Description" xml:space="preserve">
+    <value>За активацию: {0} {1} (${2})
+Количество активаций: {3}</value>
+  </data>
+  <data name="B.InlineChareCheck_Message" xml:space="preserve">
+    <value>🎁 Чек на {0} *{1}* \(${2}\)
+Монета: *[{3}]({4})*
+Сумма одной активации: {5} *{6}* \(${7}\)
+Количество активаций: *{8}*</value>
+  </data>
+  <data name="B.InlineChareCheck_Title" xml:space="preserve">
+    <value>Отправить чек на {0} {1} (${2})</value>
+  </data>
+  <data name="B.InlineSendReferralInvite_Button" xml:space="preserve">
+    <value>Перейти в бота</value>
+  </data>
+  <data name="B.InlineSendReferralInvite_Description" xml:space="preserve">
+    <value>Нажмите чтобы отправить приглашение</value>
+  </data>
+  <data name="B.InlineSendReferralInvite_Message" xml:space="preserve">
+    <value>Вас пригласили в *[Blaved]({0})*
+
+Посетите нашу *[группу]({1})* и *[чат]({2})*.</value>
+  </data>
+  <data name="B.InlineSendReferralInvite_Title" xml:space="preserve">
+    <value>Реферальное приглашение</value>
+  </data>
+  <data name="M.SectionIsTemporarilyUnavailableAnswer" xml:space="preserve">
+    <value>😕 Этот раздел временно не доступен.</value>
+  </data>
+  <data name="M.BlavedPayIDTransferHistoryDontHaveAnswer" xml:space="preserve">
+    <value>😕 У вас нету выполненых переводов.</value>
+  </data>
+  <data name="M.BlavedPayIDTransferHistoryList" xml:space="preserve">
+    <value>🗃️ Выберите *перевод* из списка для осмотра.</value>
+  </data>
+  <data name="M.BlavedPayIDTransferHistoryView" xml:space="preserve">
+    <value>Монета: *[{0}]({1})*
+
+*ID* Получателя: `{2}`
+Отправленно: {3} *{4}* \(${5}\)
+
+Время перевода *\(UTC\)*: 
+`{6}` \| `{7}` </value>
+  </data>
+  <data name="B.BlavedPayIDTransferHistoryList" xml:space="preserve">
+    <value>История переводов</value>
+  </data>
+  <data name="B.BlavedPayIDTransferCreate" xml:space="preserve">
+    <value>Создать перевод</value>
+  </data>
+  <data name="M.BlavedPayID" xml:space="preserve">
+    <value>💸 Перевод монет по *ID* внутри экосистемы *Blaved* моментально и без комисии.</value>
+  </data>
+  <data name="B.ExchangeHistoryList" xml:space="preserve">
+    <value>История обменов</value>
+  </data>
+  <data name="B.WalletTransactionHistory" xml:space="preserve">
+    <value>История транзакций</value>
+  </data>
+  <data name="M.ExchangeHistoryDontHaveAnswer" xml:space="preserve">
+    <value>😕 У вас нету выполненых обменов.</value>
+  </data>
+  <data name="M.ExchangeHistoryList" xml:space="preserve">
+    <value>🗃️ Выберите *обмен* из списка для осмотра.</value>
+  </data>
+  <data name="M.ExchangeHistoryView" xml:space="preserve">
+    <value>Пара: *[{0}]({1})/[{2}]({3})*
+
+Отдали: {4} *{5}* \(${6}\)
+➥ Комиссия: {7} *{8}* \(${9}\)
+Получили: {10} *{11}* \(${12}\)
+
+Время обмена *\(UTC\)*: 
+`{13}` \| `{14}`</value>
+  </data>
+  <data name="M.WalletLower" xml:space="preserve">
+    <value />
+  </data>
+  <data name="M.WalletTransactionHistory" xml:space="preserve">
+    <value>🗄 Выберете раздел в котором хотите осмотреть истроию транзакций.</value>
+  </data>
+  <data name="M.BlavedPayIDTransferAlert" xml:space="preserve">
+    <value>💸 Получен перевод по *ID*
+
+Монета: *[{0}]({1})*
+*ID* Отправителя: `{2}`
+
+Получено: {3} *{4}* \(${5}\)</value>
+  </data>
+  <data name="M.AssetDisabledAnswer" xml:space="preserve">
+    <value>😕 Эта монета временно отключена, повторите попытку позже
+
+Дополнительная информация публикуется в группе бота.</value>
+  </data>
+  <data name="M.FunctionDisabledAnswer" xml:space="preserve">
+    <value>😕 Этот раздел временно отключен, повторите попытку позже
+
+Дополнительная информация публикуется в группе бота.</value>
+  </data>
+  <data name="M.NetworkDisabledAnswer" xml:space="preserve">
+    <value>😕 Эта сеть временно отключена, повторите попытку позже
+
+Дополнительная информация публикуется в группе бота.</value>
+  </data>
+  <data name="B.BlavedPayNotificationsDisable" xml:space="preserve">
+    <value>Отключить уведомления</value>
+  </data>
+  <data name="B.Disable" xml:space="preserve">
+    <value>Отключить</value>
+  </data>
+  <data name="B.Enable" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="B.Notifications" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="B.NotificationsBlavedPay" xml:space="preserve">
+    <value>Blaved Pay</value>
+  </data>
+  <data name="M.BlavedPayNotificationDisableAnswer" xml:space="preserve">
+    <value>😀 Уведомления, связанные с BlavedPay, были успешно отключены. Их можно включить в настройках.</value>
+  </data>
+  <data name="M.Notifications" xml:space="preserve">
+    <value>Выберите раздел для управление уведомлениями.</value>
+  </data>
+  <data name="M.NotificationsBlavedPay" xml:space="preserve">
+    <value>Вы можете отключать или включать уведомления в этом разделе.</value>
+  </data>
+  <data name="M.SettingsNotificationDisableBlavedPayAnswer" xml:space="preserve">
+    <value>😀 Уведомления, связанные с BlavedPay, были успешно отключены.</value>
+  </data>
+  <data name="M.SettingsNotificationEnableBlavedPayAnswer" xml:space="preserve">
+    <value>😀 Уведомления, связанные с BlavedPay, были успешно включены.</value>
+  </data>
+  <data name="B.MaxAmount" xml:space="preserve">
+    <value>Макс.  ›  {0} (${1})</value>
+  </data>
+  <data name="B.MaxCount" xml:space="preserve">
+    <value>Макс.  ›  {0} • {1} {2} (${3})</value>
+  </data>
+  <data name="B.MinAmount" xml:space="preserve">
+    <value>Мин.  ›  {0} (${1})</value>
+  </data>
+  <data name="B.MinCount" xml:space="preserve">
+    <value>Мин.  ›  {0} • {1} {2} (${3})</value>
+  </data>
+</root>
